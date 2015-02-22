@@ -111,6 +111,13 @@ ul.side-nav li a:not(.button):active, ul.side-nav li a:not(.button):hover{
 
 }
 
+.active {
+	color: $red;
+	border-color:green !important;
+	border-right: 2px solid #231f20;
+	transition: border 0.5s ease;
+}
+
 
 
 
